@@ -1,6 +1,6 @@
 ---
 name: Landing Page QA Agent — Pre-Launch Audit Engine
-description: Analyze, Orchestrate, and Validate operations to: Crawls landing pages before campaign launch, deterministically checks all outbound links via Python (HTTP status codes), captures visual proof screenshots of rendering errors, and validates UTM parameters. ROI: prevents wasted ad spend by catching broken pages, dead links, and missing tracking tags before traffic is sent.
+description: "Analyze, Orchestrate, and Validate operations to: Crawls landing pages before campaign launch, deterministically checks all outbound links via Python (HTTP status codes), captures visual proof screenshots of rendering errors, and validates UTM parameters. ROI: prevents wasted ad spend by catching broken pages, dead links, and missing tracking tags before traffic is sent."
 ---
 
 # 🎯 Goal
