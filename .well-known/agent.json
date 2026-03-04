@@ -1,0 +1,20 @@
+{
+    "agent_name": "Landing Page QA Agent",
+    "version": "1.0.0",
+    "description": "Automated QA for landing pages checking links, UTMs, and mobile responsiveness.",
+    "capabilities": [
+        "qa-automation",
+        "web-scraping",
+        "marketing-ops"
+    ],
+    "protocols": {
+        "a2a": "1.0",
+        "payment": "x402"
+    },
+    "monetization": {
+        "provider": "nevermined",
+        "model": "usage-based",
+        "nevermined_id": "0xBEC6f0365D9d37e4442CfAf02B946b55B51d4575",
+        "currency": "USDC"
+    }
+}
