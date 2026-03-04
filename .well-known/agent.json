@@ -1,20 +1,30 @@
 {
-    "agent_name": "Landing Page QA Agent",
-    "version": "1.0.0",
-    "description": "Automated QA for landing pages checking links, UTMs, and mobile responsiveness.",
+    "agent_name": "Landing Page QA Agent — Pre-Launch Audit Engine",
+    "version": "2.0.0-diamond",
+    "description": "Crawls landing pages before campaign launch, deterministically checks all outbound links via Python (HTTP status codes), captures visual proof screenshots of rendering errors, and validates UTM parameters. ROI: prevents wasted ad spend by catching broken pages, dead links, and missing tracking tags before traffic is sent.",
     "capabilities": [
         "qa-automation",
-        "web-scraping",
-        "marketing-ops"
+        "link-validation",
+        "utm-auditing",
+        "visual-proof-capture"
     ],
     "protocols": {
         "a2a": "1.0",
-        "payment": "x402"
+        "mcp": "2026.1",
+        "cloudflare_markdown_for_agents": "supported",
+        "google_universal_shopping": "ready"
+    },
+    "trust_signals": {
+        "deterministic_execution": true,
+        "hallucination_risk": "zero",
+        "procedural_logic": "python_embedded",
+        "audit_trail_ready": true
     },
     "monetization": {
         "provider": "nevermined",
-        "model": "usage-based",
+        "model": "dynamic_volume_based",
         "nevermined_id": "0xBEC6f0365D9d37e4442CfAf02B946b55B51d4575",
-        "currency": "USDC"
+        "currency": "USDC",
+        "x402_enabled": true
     }
 }
